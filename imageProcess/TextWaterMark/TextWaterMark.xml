@@ -1,0 +1,20 @@
+<Method id="" name="RgbToGray">
+    <Description>
+        Add an text watermark to the target image
+    </Description>
+    <Dependency>
+        <Item name="PIL" url=""/>
+        <Item name="matplotlib" url=""/>
+        <Item name="os" url=""/>
+        <Item name="sys" url=""/>
+    </Dependency>
+    <Input count="1">
+        <Item name="test.png" type="path" description="original png or jpg file"/>
+    </Input>
+    <Parameter count="1">
+        <Item name="text" type="string" description="The watermark text you need to add" />
+    </Parameter>
+    <Output count="1">
+        <Item name="res.png" type="path" description="result, an png or jpg file"/>
+    </Output>
+</Method>

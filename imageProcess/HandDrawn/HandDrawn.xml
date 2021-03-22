@@ -1,0 +1,19 @@
+<Method id="" name="RgbToGray">
+    <Description>
+        convert an image into a handdrawn style
+    </Description>
+    <Dependency>
+        <Item name="PIL" url=""/>
+        <Item name="numpy" url=""/>
+        <Item name="os" url=""/>
+        <Item name="sys" url=""/>
+    </Dependency>
+    <Input count="1">
+        <Item name="test.png" type="path" description="original png file"/>
+    </Input>
+    <Parameter count="0">
+    </Parameter>
+    <Output count="1">
+        <Item name="res.png" type="path" description="result, an png file"/>
+    </Output>
+</Method>
