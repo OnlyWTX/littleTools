@@ -1,2 +1,2 @@
 # littleTools
-some little tools i wrote when I studying python :)
+some little tools I wrote when I studying python :)
